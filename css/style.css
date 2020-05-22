@@ -1,0 +1,65 @@
+/* TAG */
+
+*{
+	margin: 0px;
+}
+
+
+h1 {
+	color: white;
+	font-size: 56px;
+	font-family: Helvetica,Arial;
+	text-align: justify; 
+
+}
+
+
+nav{
+	min-height: 80px;
+}
+
+footer{
+	background-color: #007bff;
+	color: #FFFFFF;
+	/*background-image: -moz-linear-gradient(#FFFFFF,#007bff;);*/
+	/*background-image: -webkit-linear-gradient(#FFFFFF,#007bff);*/
+	height: 50px;
+	clear: both;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+	text-shadow: black 0px 0px 10px;
+}
+
+/* ID */
+
+#h1_pegadas p{
+	color: white;
+	font-size: 18;
+	font-family: Helvetica,Arial;
+	text-align: justify;
+	text-shadow: black 1px 1px 1px 
+
+}
+#div_principal{
+	background-image: url("img/pegadas.jpg");
+	background-size: 100%;
+	min-height: 650px;
+}
+#menu a{
+	text-decoration:  none;
+	color: #FFFFFF
+}
+
+#menu a:hover{
+	background-color: white;
+	color: #007bff
+}
+
+/* CLASSE */
+
+.fixedHeightImg {
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
